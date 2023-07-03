@@ -2,16 +2,265 @@
   {
     "imageUrl": "https://alicjaogonowska.pl/storage/2021/11/F5EF1C2E-D2B0-433E-BECE-AE007ED37BAB.jpeg",
     "ingredients": [
-      "to",
-      "to",
-      "to"
+      "185g of wheat flour",
+      "15g of cocoa",
+      "40g of powdered sugar",
+      "120g of cold butter",
+      "pinch of salt",
+      "tablespoon of apple cider vinegar (or lemon juice)",
+      "tablespoon of cold water"
     ],
     "instructions": [
-      "to",
-      "to",
-      "to"
+      "Crumbly crust: sift the flour, cocoa, and sugar, then add salt.",
+      "Add the butter and chop the mixture with a knife until small crumbs form.",
+      "Add water and vinegar and quickly knead the dough.",
+      "Line a tart or cake pan with the dough, prick it with a fork, and put it in the freezer for 15 minutes.",
+      "Place baking paper on the tart, add some weights (for example, beans), and bake at 180 degrees Celsius for 15-20 minutes - remove the weights for the last 5 minutes.",
+      "Allow the crust to cool"
     ],
-    "id": "test",
-    "name": "Best cake ever like really the best"
+    "id": "tiramisu-tart",
+    "name": "Very chocolate tiramisu tart"
+  },
+  {
+    "imageUrl": "https://alicjaogonowska.pl/storage/2022/12/IMG_2296-scaled.jpg",
+    "ingredients": [
+      "185g of wheat flour",
+      "15g of cocoa",
+      "40g of powdered sugar",
+      "120g of cold butter",
+      "pinch of salt",
+      "tablespoon of apple cider vinegar (or lemon juice)",
+      "tablespoon of cold water"
+    ],
+    "instructions": [
+      "Crumbly crust: sift the flour, cocoa, and sugar, then add salt.",
+      "Add the butter and chop the mixture with a knife until small crumbs form.",
+      "Add water and vinegar and quickly knead the dough.",
+      "Line a tart or cake pan with the dough, prick it with a fork, and put it in the freezer for 15 minutes.",
+      "Place baking paper on the tart, add some weights (for example, beans), and bake at 180 degrees Celsius for 15-20 minutes - remove the weights for the last 5 minutes.",
+      "Allow the crust to cool"
+    ],
+    "id": "carrot-cake",
+    "name": "Carrot cake with cream cheese frosting"
+  },
+  {
+    "imageUrl": "https://alicjaogonowska.pl/storage/2022/11/IMG_2180-scaled.jpg",
+    "ingredients": [
+      "185g of wheat flour",
+      "15g of cocoa",
+      "40g of powdered sugar",
+      "120g of cold butter",
+      "pinch of salt",
+      "tablespoon of apple cider vinegar (or lemon juice)",
+      "tablespoon of cold water"
+    ],
+    "instructions": [
+      "Crumbly crust: sift the flour, cocoa, and sugar, then add salt.",
+      "Add the butter and chop the mixture with a knife until small crumbs form.",
+      "Add water and vinegar and quickly knead the dough.",
+      "Line a tart or cake pan with the dough, prick it with a fork, and put it in the freezer for 15 minutes.",
+      "Place baking paper on the tart, add some weights (for example, beans), and bake at 180 degrees Celsius for 15-20 minutes - remove the weights for the last 5 minutes.",
+      "Allow the crust to cool"
+    ],
+    "id": "onion-soup",
+    "name": "French onion soup"
+  },
+  {
+    "imageUrl": "https://alicjaogonowska.pl/storage/2021/08/604E2DA4-F1E9-4912-BB16-86175BD059AA-scaled.jpg",
+    "ingredients": [
+      "185g of wheat flour",
+      "15g of cocoa",
+      "40g of powdered sugar",
+      "120g of cold butter",
+      "pinch of salt",
+      "tablespoon of apple cider vinegar (or lemon juice)",
+      "tablespoon of cold water"
+    ],
+    "instructions": [
+      "Crumbly crust: sift the flour, cocoa, and sugar, then add salt.",
+      "Add the butter and chop the mixture with a knife until small crumbs form.",
+      "Add water and vinegar and quickly knead the dough.",
+      "Line a tart or cake pan with the dough, prick it with a fork, and put it in the freezer for 15 minutes.",
+      "Place baking paper on the tart, add some weights (for example, beans), and bake at 180 degrees Celsius for 15-20 minutes - remove the weights for the last 5 minutes.",
+      "Allow the crust to cool"
+    ],
+    "id": "crema-catalana",
+    "name": "Spanish crema catalana"
+  },
+  {
+    "imageUrl": "https://alicjaogonowska.pl/storage/2021/06/140AE1B5-C411-4134-9B34-5AC37D39D8CD.jpeg",
+    "ingredients": [
+      "185g of wheat flour",
+      "15g of cocoa",
+      "40g of powdered sugar",
+      "120g of cold butter",
+      "pinch of salt",
+      "tablespoon of apple cider vinegar (or lemon juice)",
+      "tablespoon of cold water"
+    ],
+    "instructions": [
+      "Crumbly crust: sift the flour, cocoa, and sugar, then add salt.",
+      "Add the butter and chop the mixture with a knife until small crumbs form.",
+      "Add water and vinegar and quickly knead the dough.",
+      "Line a tart or cake pan with the dough, prick it with a fork, and put it in the freezer for 15 minutes.",
+      "Place baking paper on the tart, add some weights (for example, beans), and bake at 180 degrees Celsius for 15-20 minutes - remove the weights for the last 5 minutes.",
+      "Allow the crust to cool"
+    ],
+    "id": "shakshuka",
+    "name": "Shakshuka"
+  },
+  {
+    "imageUrl": "https://alicjaogonowska.pl/storage/2021/04/1A5578F3-00DA-4BA1-AB16-08E897CD1370.jpeg",
+    "ingredients": [
+      "185g of wheat flour",
+      "15g of cocoa",
+      "40g of powdered sugar",
+      "120g of cold butter",
+      "pinch of salt",
+      "tablespoon of apple cider vinegar (or lemon juice)",
+      "tablespoon of cold water"
+    ],
+    "instructions": [
+      "Crumbly crust: sift the flour, cocoa, and sugar, then add salt.",
+      "Add the butter and chop the mixture with a knife until small crumbs form.",
+      "Add water and vinegar and quickly knead the dough.",
+      "Line a tart or cake pan with the dough, prick it with a fork, and put it in the freezer for 15 minutes.",
+      "Place baking paper on the tart, add some weights (for example, beans), and bake at 180 degrees Celsius for 15-20 minutes - remove the weights for the last 5 minutes.",
+      "Allow the crust to cool"
+    ],
+    "id": "beetroot-waffles",
+    "name": "Beetroot waffles"
+  },
+  {
+    "imageUrl": "https://alicjaogonowska.pl/storage/2021/03/C6DF7B5A-A958-4BC9-BDEE-BCF01ABFCCD7.jpeg",
+    "ingredients": [
+      "185g of wheat flour",
+      "15g of cocoa",
+      "40g of powdered sugar",
+      "120g of cold butter",
+      "pinch of salt",
+      "tablespoon of apple cider vinegar (or lemon juice)",
+      "tablespoon of cold water"
+    ],
+    "instructions": [
+      "Crumbly crust: sift the flour, cocoa, and sugar, then add salt.",
+      "Add the butter and chop the mixture with a knife until small crumbs form.",
+      "Add water and vinegar and quickly knead the dough.",
+      "Line a tart or cake pan with the dough, prick it with a fork, and put it in the freezer for 15 minutes.",
+      "Place baking paper on the tart, add some weights (for example, beans), and bake at 180 degrees Celsius for 15-20 minutes - remove the weights for the last 5 minutes.",
+      "Allow the crust to cool"
+    ],
+    "id": "breakfast-pizza",
+    "name": "Breakfast pizza"
+  },
+  {
+    "imageUrl": "https://alicjaogonowska.pl/storage/2021/03/5C31FA96-F2F3-4E62-A96C-4F805D586D5F.jpeg",
+    "ingredients": [
+      "185g of wheat flour",
+      "15g of cocoa",
+      "40g of powdered sugar",
+      "120g of cold butter",
+      "pinch of salt",
+      "tablespoon of apple cider vinegar (or lemon juice)",
+      "tablespoon of cold water"
+    ],
+    "instructions": [
+      "Crumbly crust: sift the flour, cocoa, and sugar, then add salt.",
+      "Add the butter and chop the mixture with a knife until small crumbs form.",
+      "Add water and vinegar and quickly knead the dough.",
+      "Line a tart or cake pan with the dough, prick it with a fork, and put it in the freezer for 15 minutes.",
+      "Place baking paper on the tart, add some weights (for example, beans), and bake at 180 degrees Celsius for 15-20 minutes - remove the weights for the last 5 minutes.",
+      "Allow the crust to cool"
+    ],
+    "id": "bulgogi",
+    "name": "Korean beef bulgogi"
+  },
+  {
+    "imageUrl": "https://alicjaogonowska.pl/storage/2022/05/IMG_5151-scaled.jpg",
+    "ingredients": [
+      "185g of wheat flour",
+      "15g of cocoa",
+      "40g of powdered sugar",
+      "120g of cold butter",
+      "pinch of salt",
+      "tablespoon of apple cider vinegar (or lemon juice)",
+      "tablespoon of cold water"
+    ],
+    "instructions": [
+      "Crumbly crust: sift the flour, cocoa, and sugar, then add salt.",
+      "Add the butter and chop the mixture with a knife until small crumbs form.",
+      "Add water and vinegar and quickly knead the dough.",
+      "Line a tart or cake pan with the dough, prick it with a fork, and put it in the freezer for 15 minutes.",
+      "Place baking paper on the tart, add some weights (for example, beans), and bake at 180 degrees Celsius for 15-20 minutes - remove the weights for the last 5 minutes.",
+      "Allow the crust to cool"
+    ],
+    "id": "chicken-satay",
+    "name": "Chicken satay"
+  },
+  {
+    "imageUrl": "https://alicjaogonowska.pl/storage/2021/06/21FC7BB0-FBDF-4058-8C6A-62685DBD457C.jpeg",
+    "ingredients": [
+      "185g of wheat flour",
+      "15g of cocoa",
+      "40g of powdered sugar",
+      "120g of cold butter",
+      "pinch of salt",
+      "tablespoon of apple cider vinegar (or lemon juice)",
+      "tablespoon of cold water"
+    ],
+    "instructions": [
+      "Crumbly crust: sift the flour, cocoa, and sugar, then add salt.",
+      "Add the butter and chop the mixture with a knife until small crumbs form.",
+      "Add water and vinegar and quickly knead the dough.",
+      "Line a tart or cake pan with the dough, prick it with a fork, and put it in the freezer for 15 minutes.",
+      "Place baking paper on the tart, add some weights (for example, beans), and bake at 180 degrees Celsius for 15-20 minutes - remove the weights for the last 5 minutes.",
+      "Allow the crust to cool"
+    ],
+    "id": "komiska-pogaca",
+    "name": "Croatian komiska pogaca"
+  },
+  {
+    "imageUrl": "https://alicjaogonowska.pl/storage/2021/05/CD6F62E7-5D2B-4330-BD6B-A407F684C88E.jpeg",
+    "ingredients": [
+      "185g of wheat flour",
+      "15g of cocoa",
+      "40g of powdered sugar",
+      "120g of cold butter",
+      "pinch of salt",
+      "tablespoon of apple cider vinegar (or lemon juice)",
+      "tablespoon of cold water"
+    ],
+    "instructions": [
+      "Crumbly crust: sift the flour, cocoa, and sugar, then add salt.",
+      "Add the butter and chop the mixture with a knife until small crumbs form.",
+      "Add water and vinegar and quickly knead the dough.",
+      "Line a tart or cake pan with the dough, prick it with a fork, and put it in the freezer for 15 minutes.",
+      "Place baking paper on the tart, add some weights (for example, beans), and bake at 180 degrees Celsius for 15-20 minutes - remove the weights for the last 5 minutes.",
+      "Allow the crust to cool"
+    ],
+    "id": "turkish-pide",
+    "name": "Spicy turkish pide"
+  },
+  {
+    "imageUrl": "https://alicjaogonowska.pl/storage/2021/04/84FA331C-50F6-4258-BE4B-19EB2992050F.jpeg",
+    "ingredients": [
+      "185g of wheat flour",
+      "15g of cocoa",
+      "40g of powdered sugar",
+      "120g of cold butter",
+      "pinch of salt",
+      "tablespoon of apple cider vinegar (or lemon juice)",
+      "tablespoon of cold water"
+    ],
+    "instructions": [
+      "Crumbly crust: sift the flour, cocoa, and sugar, then add salt.",
+      "Add the butter and chop the mixture with a knife until small crumbs form.",
+      "Add water and vinegar and quickly knead the dough.",
+      "Line a tart or cake pan with the dough, prick it with a fork, and put it in the freezer for 15 minutes.",
+      "Place baking paper on the tart, add some weights (for example, beans), and bake at 180 degrees Celsius for 15-20 minutes - remove the weights for the last 5 minutes.",
+      "Allow the crust to cool"
+    ],
+    "id": "khachapuri",
+    "name": "Khaczapuri ajaruli"
   }
 ]

@@ -47,8 +47,8 @@ class _RecipeNotFoundView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Center(
-        child: Text('Ooops! Recipe you are looking for does not '
-            'exists!'));
+      child: Text('Ooops! Recipe you are looking for does not exists!'),
+    );
   }
 }
 
@@ -71,7 +71,8 @@ class _RecipeContent extends StatelessWidget {
               mainAxisSize: MainAxisSize.min,
               children: [
                 AspectRatio(
-                  aspectRatio: 1.5,
+                  aspectRatio:
+                      MediaQuery.of(context).size.width > 640 ? 4 : 1.5,
                   child: CachedNetworkImage(
                     imageUrl: recipe.imageUrl,
                     width: MediaQuery.of(context).size.width,
@@ -93,8 +94,9 @@ class _RecipeContent extends StatelessWidget {
             style: Theme.of(context).textTheme.titleMedium,
           ),
           const SizedBox(height: 8),
-          ...recipe.ingredients.map((ingredient) => Text('• $ingredient',
-              style: Theme.of(context).textTheme.bodySmall)),
+          ...recipe.ingredients.map((ingredient) => Text(
+                '• $ingredient',
+              )),
           const SizedBox(height: 16),
           const Divider(),
           Text(
