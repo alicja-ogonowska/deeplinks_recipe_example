@@ -6,6 +6,10 @@ class DeepLinkState with _$DeepLinkState {
 
   const factory DeepLinkState.initialized() = DeepLinkInitialized;
 
+  const factory DeepLinkState.home() = DeepLinkHome;
+
+  const factory DeepLinkState.login() = DeepLinkLogin;
+
   const factory DeepLinkState.profile() = DeepLinkProfile;
 
   const factory DeepLinkState.recipe(String recipeId) = DeepLinkRecipe;

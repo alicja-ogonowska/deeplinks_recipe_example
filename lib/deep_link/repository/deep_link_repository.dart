@@ -9,8 +9,8 @@ class DeepLinkRepository {
 
   final AppLinks _appLinks;
 
-  Future<Uri?> getInitialUri() async {
-    return (await _appLinks.getInitialAppLink());
+  Future<Uri?> getInitialUri() {
+    return _appLinks.getInitialAppLink();
   }
 
   Stream<Uri?> get uriLinkStream => _appLinks.uriLinkStream;

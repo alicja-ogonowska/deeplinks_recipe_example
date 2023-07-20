@@ -21,7 +21,7 @@ class MyProfileScreen extends StatelessWidget {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  const Text('Recipes recommended for you:'),
+                  const Text('You are now logged in!'),
                   const SizedBox(height: 16),
                   ElevatedButton(
                       onPressed: () => {

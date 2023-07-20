@@ -6,6 +6,7 @@ import 'package:recipe_app/auth/presentation/bloc/auth_bloc.dart';
 import 'package:recipe_app/login/ui/login_screen.dart';
 import 'package:recipe_app/profile/ui/my_profile_screen.dart';
 import 'package:recipe_app/recipe/ui/recipe_screen.dart';
+import 'package:recipe_app/recipe/ui/recipes_screen.dart';
 import 'package:recipe_app/ui/not_found_screen.dart';
 
 import 'home/ui/home_screen.dart';
@@ -37,7 +38,7 @@ final appRouter = GoRouter(
         'profile',
         (_) => const MyProfileScreen(),
       ),
-    ]),
+    ], ),AppRoute('/recipes', (_)=>  RecipesScreen()),
   ],
   errorBuilder: (context, state) => const NotFoundScreen(),
 );

@@ -20,6 +20,8 @@ mixin _$DeepLinkState {
   TResult when<TResult extends Object?>({
     required TResult Function() uninitialized,
     required TResult Function() initialized,
+    required TResult Function() home,
+    required TResult Function() login,
     required TResult Function() profile,
     required TResult Function(String recipeId) recipe,
     required TResult Function(String? recipeType, String? query, String? filter)
@@ -31,6 +33,8 @@ mixin _$DeepLinkState {
   TResult? whenOrNull<TResult extends Object?>({
     TResult? Function()? uninitialized,
     TResult? Function()? initialized,
+    TResult? Function()? home,
+    TResult? Function()? login,
     TResult? Function()? profile,
     TResult? Function(String recipeId)? recipe,
     TResult? Function(String? recipeType, String? query, String? filter)?
@@ -42,6 +46,8 @@ mixin _$DeepLinkState {
   TResult maybeWhen<TResult extends Object?>({
     TResult Function()? uninitialized,
     TResult Function()? initialized,
+    TResult Function()? home,
+    TResult Function()? login,
     TResult Function()? profile,
     TResult Function(String recipeId)? recipe,
     TResult Function(String? recipeType, String? query, String? filter)?
@@ -54,6 +60,8 @@ mixin _$DeepLinkState {
   TResult map<TResult extends Object?>({
     required TResult Function(DeepLinkUninitialized value) uninitialized,
     required TResult Function(DeepLinkInitialized value) initialized,
+    required TResult Function(DeepLinkHome value) home,
+    required TResult Function(DeepLinkLogin value) login,
     required TResult Function(DeepLinkProfile value) profile,
     required TResult Function(DeepLinkRecipe value) recipe,
     required TResult Function(DeepLinkRecipes value) recipes,
@@ -64,6 +72,8 @@ mixin _$DeepLinkState {
   TResult? mapOrNull<TResult extends Object?>({
     TResult? Function(DeepLinkUninitialized value)? uninitialized,
     TResult? Function(DeepLinkInitialized value)? initialized,
+    TResult? Function(DeepLinkHome value)? home,
+    TResult? Function(DeepLinkLogin value)? login,
     TResult? Function(DeepLinkProfile value)? profile,
     TResult? Function(DeepLinkRecipe value)? recipe,
     TResult? Function(DeepLinkRecipes value)? recipes,
@@ -74,6 +84,8 @@ mixin _$DeepLinkState {
   TResult maybeMap<TResult extends Object?>({
     TResult Function(DeepLinkUninitialized value)? uninitialized,
     TResult Function(DeepLinkInitialized value)? initialized,
+    TResult Function(DeepLinkHome value)? home,
+    TResult Function(DeepLinkLogin value)? login,
     TResult Function(DeepLinkProfile value)? profile,
     TResult Function(DeepLinkRecipe value)? recipe,
     TResult Function(DeepLinkRecipes value)? recipes,
@@ -141,6 +153,8 @@ class _$DeepLinkUninitialized implements DeepLinkUninitialized {
   TResult when<TResult extends Object?>({
     required TResult Function() uninitialized,
     required TResult Function() initialized,
+    required TResult Function() home,
+    required TResult Function() login,
     required TResult Function() profile,
     required TResult Function(String recipeId) recipe,
     required TResult Function(String? recipeType, String? query, String? filter)
@@ -155,6 +169,8 @@ class _$DeepLinkUninitialized implements DeepLinkUninitialized {
   TResult? whenOrNull<TResult extends Object?>({
     TResult? Function()? uninitialized,
     TResult? Function()? initialized,
+    TResult? Function()? home,
+    TResult? Function()? login,
     TResult? Function()? profile,
     TResult? Function(String recipeId)? recipe,
     TResult? Function(String? recipeType, String? query, String? filter)?
@@ -169,6 +185,8 @@ class _$DeepLinkUninitialized implements DeepLinkUninitialized {
   TResult maybeWhen<TResult extends Object?>({
     TResult Function()? uninitialized,
     TResult Function()? initialized,
+    TResult Function()? home,
+    TResult Function()? login,
     TResult Function()? profile,
     TResult Function(String recipeId)? recipe,
     TResult Function(String? recipeType, String? query, String? filter)?
@@ -187,6 +205,8 @@ class _$DeepLinkUninitialized implements DeepLinkUninitialized {
   TResult map<TResult extends Object?>({
     required TResult Function(DeepLinkUninitialized value) uninitialized,
     required TResult Function(DeepLinkInitialized value) initialized,
+    required TResult Function(DeepLinkHome value) home,
+    required TResult Function(DeepLinkLogin value) login,
     required TResult Function(DeepLinkProfile value) profile,
     required TResult Function(DeepLinkRecipe value) recipe,
     required TResult Function(DeepLinkRecipes value) recipes,
@@ -200,6 +220,8 @@ class _$DeepLinkUninitialized implements DeepLinkUninitialized {
   TResult? mapOrNull<TResult extends Object?>({
     TResult? Function(DeepLinkUninitialized value)? uninitialized,
     TResult? Function(DeepLinkInitialized value)? initialized,
+    TResult? Function(DeepLinkHome value)? home,
+    TResult? Function(DeepLinkLogin value)? login,
     TResult? Function(DeepLinkProfile value)? profile,
     TResult? Function(DeepLinkRecipe value)? recipe,
     TResult? Function(DeepLinkRecipes value)? recipes,
@@ -213,6 +235,8 @@ class _$DeepLinkUninitialized implements DeepLinkUninitialized {
   TResult maybeMap<TResult extends Object?>({
     TResult Function(DeepLinkUninitialized value)? uninitialized,
     TResult Function(DeepLinkInitialized value)? initialized,
+    TResult Function(DeepLinkHome value)? home,
+    TResult Function(DeepLinkLogin value)? login,
     TResult Function(DeepLinkProfile value)? profile,
     TResult Function(DeepLinkRecipe value)? recipe,
     TResult Function(DeepLinkRecipes value)? recipes,
@@ -270,6 +294,8 @@ class _$DeepLinkInitialized implements DeepLinkInitialized {
   TResult when<TResult extends Object?>({
     required TResult Function() uninitialized,
     required TResult Function() initialized,
+    required TResult Function() home,
+    required TResult Function() login,
     required TResult Function() profile,
     required TResult Function(String recipeId) recipe,
     required TResult Function(String? recipeType, String? query, String? filter)
@@ -284,6 +310,8 @@ class _$DeepLinkInitialized implements DeepLinkInitialized {
   TResult? whenOrNull<TResult extends Object?>({
     TResult? Function()? uninitialized,
     TResult? Function()? initialized,
+    TResult? Function()? home,
+    TResult? Function()? login,
     TResult? Function()? profile,
     TResult? Function(String recipeId)? recipe,
     TResult? Function(String? recipeType, String? query, String? filter)?
@@ -298,6 +326,8 @@ class _$DeepLinkInitialized implements DeepLinkInitialized {
   TResult maybeWhen<TResult extends Object?>({
     TResult Function()? uninitialized,
     TResult Function()? initialized,
+    TResult Function()? home,
+    TResult Function()? login,
     TResult Function()? profile,
     TResult Function(String recipeId)? recipe,
     TResult Function(String? recipeType, String? query, String? filter)?
@@ -316,6 +346,8 @@ class _$DeepLinkInitialized implements DeepLinkInitialized {
   TResult map<TResult extends Object?>({
     required TResult Function(DeepLinkUninitialized value) uninitialized,
     required TResult Function(DeepLinkInitialized value) initialized,
+    required TResult Function(DeepLinkHome value) home,
+    required TResult Function(DeepLinkLogin value) login,
     required TResult Function(DeepLinkProfile value) profile,
     required TResult Function(DeepLinkRecipe value) recipe,
     required TResult Function(DeepLinkRecipes value) recipes,
@@ -329,6 +361,8 @@ class _$DeepLinkInitialized implements DeepLinkInitialized {
   TResult? mapOrNull<TResult extends Object?>({
     TResult? Function(DeepLinkUninitialized value)? uninitialized,
     TResult? Function(DeepLinkInitialized value)? initialized,
+    TResult? Function(DeepLinkHome value)? home,
+    TResult? Function(DeepLinkLogin value)? login,
     TResult? Function(DeepLinkProfile value)? profile,
     TResult? Function(DeepLinkRecipe value)? recipe,
     TResult? Function(DeepLinkRecipes value)? recipes,
@@ -342,6 +376,8 @@ class _$DeepLinkInitialized implements DeepLinkInitialized {
   TResult maybeMap<TResult extends Object?>({
     TResult Function(DeepLinkUninitialized value)? uninitialized,
     TResult Function(DeepLinkInitialized value)? initialized,
+    TResult Function(DeepLinkHome value)? home,
+    TResult Function(DeepLinkLogin value)? login,
     TResult Function(DeepLinkProfile value)? profile,
     TResult Function(DeepLinkRecipe value)? recipe,
     TResult Function(DeepLinkRecipes value)? recipes,
@@ -357,6 +393,288 @@ class _$DeepLinkInitialized implements DeepLinkInitialized {
 
 abstract class DeepLinkInitialized implements DeepLinkState {
   const factory DeepLinkInitialized() = _$DeepLinkInitialized;
+}
+
+/// @nodoc
+abstract class _$$DeepLinkHomeCopyWith<$Res> {
+  factory _$$DeepLinkHomeCopyWith(
+          _$DeepLinkHome value, $Res Function(_$DeepLinkHome) then) =
+      __$$DeepLinkHomeCopyWithImpl<$Res>;
+}
+
+/// @nodoc
+class __$$DeepLinkHomeCopyWithImpl<$Res>
+    extends _$DeepLinkStateCopyWithImpl<$Res, _$DeepLinkHome>
+    implements _$$DeepLinkHomeCopyWith<$Res> {
+  __$$DeepLinkHomeCopyWithImpl(
+      _$DeepLinkHome _value, $Res Function(_$DeepLinkHome) _then)
+      : super(_value, _then);
+}
+
+/// @nodoc
+
+class _$DeepLinkHome implements DeepLinkHome {
+  const _$DeepLinkHome();
+
+  @override
+  String toString() {
+    return 'DeepLinkState.home()';
+  }
+
+  @override
+  bool operator ==(dynamic other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType && other is _$DeepLinkHome);
+  }
+
+  @override
+  int get hashCode => runtimeType.hashCode;
+
+  @override
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>({
+    required TResult Function() uninitialized,
+    required TResult Function() initialized,
+    required TResult Function() home,
+    required TResult Function() login,
+    required TResult Function() profile,
+    required TResult Function(String recipeId) recipe,
+    required TResult Function(String? recipeType, String? query, String? filter)
+        recipes,
+    required TResult Function(Exception exception) error,
+  }) {
+    return home();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>({
+    TResult? Function()? uninitialized,
+    TResult? Function()? initialized,
+    TResult? Function()? home,
+    TResult? Function()? login,
+    TResult? Function()? profile,
+    TResult? Function(String recipeId)? recipe,
+    TResult? Function(String? recipeType, String? query, String? filter)?
+        recipes,
+    TResult? Function(Exception exception)? error,
+  }) {
+    return home?.call();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>({
+    TResult Function()? uninitialized,
+    TResult Function()? initialized,
+    TResult Function()? home,
+    TResult Function()? login,
+    TResult Function()? profile,
+    TResult Function(String recipeId)? recipe,
+    TResult Function(String? recipeType, String? query, String? filter)?
+        recipes,
+    TResult Function(Exception exception)? error,
+    required TResult orElse(),
+  }) {
+    if (home != null) {
+      return home();
+    }
+    return orElse();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>({
+    required TResult Function(DeepLinkUninitialized value) uninitialized,
+    required TResult Function(DeepLinkInitialized value) initialized,
+    required TResult Function(DeepLinkHome value) home,
+    required TResult Function(DeepLinkLogin value) login,
+    required TResult Function(DeepLinkProfile value) profile,
+    required TResult Function(DeepLinkRecipe value) recipe,
+    required TResult Function(DeepLinkRecipes value) recipes,
+    required TResult Function(DeepLinkError value) error,
+  }) {
+    return home(this);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>({
+    TResult? Function(DeepLinkUninitialized value)? uninitialized,
+    TResult? Function(DeepLinkInitialized value)? initialized,
+    TResult? Function(DeepLinkHome value)? home,
+    TResult? Function(DeepLinkLogin value)? login,
+    TResult? Function(DeepLinkProfile value)? profile,
+    TResult? Function(DeepLinkRecipe value)? recipe,
+    TResult? Function(DeepLinkRecipes value)? recipes,
+    TResult? Function(DeepLinkError value)? error,
+  }) {
+    return home?.call(this);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>({
+    TResult Function(DeepLinkUninitialized value)? uninitialized,
+    TResult Function(DeepLinkInitialized value)? initialized,
+    TResult Function(DeepLinkHome value)? home,
+    TResult Function(DeepLinkLogin value)? login,
+    TResult Function(DeepLinkProfile value)? profile,
+    TResult Function(DeepLinkRecipe value)? recipe,
+    TResult Function(DeepLinkRecipes value)? recipes,
+    TResult Function(DeepLinkError value)? error,
+    required TResult orElse(),
+  }) {
+    if (home != null) {
+      return home(this);
+    }
+    return orElse();
+  }
+}
+
+abstract class DeepLinkHome implements DeepLinkState {
+  const factory DeepLinkHome() = _$DeepLinkHome;
+}
+
+/// @nodoc
+abstract class _$$DeepLinkLoginCopyWith<$Res> {
+  factory _$$DeepLinkLoginCopyWith(
+          _$DeepLinkLogin value, $Res Function(_$DeepLinkLogin) then) =
+      __$$DeepLinkLoginCopyWithImpl<$Res>;
+}
+
+/// @nodoc
+class __$$DeepLinkLoginCopyWithImpl<$Res>
+    extends _$DeepLinkStateCopyWithImpl<$Res, _$DeepLinkLogin>
+    implements _$$DeepLinkLoginCopyWith<$Res> {
+  __$$DeepLinkLoginCopyWithImpl(
+      _$DeepLinkLogin _value, $Res Function(_$DeepLinkLogin) _then)
+      : super(_value, _then);
+}
+
+/// @nodoc
+
+class _$DeepLinkLogin implements DeepLinkLogin {
+  const _$DeepLinkLogin();
+
+  @override
+  String toString() {
+    return 'DeepLinkState.login()';
+  }
+
+  @override
+  bool operator ==(dynamic other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType && other is _$DeepLinkLogin);
+  }
+
+  @override
+  int get hashCode => runtimeType.hashCode;
+
+  @override
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>({
+    required TResult Function() uninitialized,
+    required TResult Function() initialized,
+    required TResult Function() home,
+    required TResult Function() login,
+    required TResult Function() profile,
+    required TResult Function(String recipeId) recipe,
+    required TResult Function(String? recipeType, String? query, String? filter)
+        recipes,
+    required TResult Function(Exception exception) error,
+  }) {
+    return login();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>({
+    TResult? Function()? uninitialized,
+    TResult? Function()? initialized,
+    TResult? Function()? home,
+    TResult? Function()? login,
+    TResult? Function()? profile,
+    TResult? Function(String recipeId)? recipe,
+    TResult? Function(String? recipeType, String? query, String? filter)?
+        recipes,
+    TResult? Function(Exception exception)? error,
+  }) {
+    return login?.call();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>({
+    TResult Function()? uninitialized,
+    TResult Function()? initialized,
+    TResult Function()? home,
+    TResult Function()? login,
+    TResult Function()? profile,
+    TResult Function(String recipeId)? recipe,
+    TResult Function(String? recipeType, String? query, String? filter)?
+        recipes,
+    TResult Function(Exception exception)? error,
+    required TResult orElse(),
+  }) {
+    if (login != null) {
+      return login();
+    }
+    return orElse();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>({
+    required TResult Function(DeepLinkUninitialized value) uninitialized,
+    required TResult Function(DeepLinkInitialized value) initialized,
+    required TResult Function(DeepLinkHome value) home,
+    required TResult Function(DeepLinkLogin value) login,
+    required TResult Function(DeepLinkProfile value) profile,
+    required TResult Function(DeepLinkRecipe value) recipe,
+    required TResult Function(DeepLinkRecipes value) recipes,
+    required TResult Function(DeepLinkError value) error,
+  }) {
+    return login(this);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>({
+    TResult? Function(DeepLinkUninitialized value)? uninitialized,
+    TResult? Function(DeepLinkInitialized value)? initialized,
+    TResult? Function(DeepLinkHome value)? home,
+    TResult? Function(DeepLinkLogin value)? login,
+    TResult? Function(DeepLinkProfile value)? profile,
+    TResult? Function(DeepLinkRecipe value)? recipe,
+    TResult? Function(DeepLinkRecipes value)? recipes,
+    TResult? Function(DeepLinkError value)? error,
+  }) {
+    return login?.call(this);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>({
+    TResult Function(DeepLinkUninitialized value)? uninitialized,
+    TResult Function(DeepLinkInitialized value)? initialized,
+    TResult Function(DeepLinkHome value)? home,
+    TResult Function(DeepLinkLogin value)? login,
+    TResult Function(DeepLinkProfile value)? profile,
+    TResult Function(DeepLinkRecipe value)? recipe,
+    TResult Function(DeepLinkRecipes value)? recipes,
+    TResult Function(DeepLinkError value)? error,
+    required TResult orElse(),
+  }) {
+    if (login != null) {
+      return login(this);
+    }
+    return orElse();
+  }
+}
+
+abstract class DeepLinkLogin implements DeepLinkState {
+  const factory DeepLinkLogin() = _$DeepLinkLogin;
 }
 
 /// @nodoc
@@ -399,6 +717,8 @@ class _$DeepLinkProfile implements DeepLinkProfile {
   TResult when<TResult extends Object?>({
     required TResult Function() uninitialized,
     required TResult Function() initialized,
+    required TResult Function() home,
+    required TResult Function() login,
     required TResult Function() profile,
     required TResult Function(String recipeId) recipe,
     required TResult Function(String? recipeType, String? query, String? filter)
@@ -413,6 +733,8 @@ class _$DeepLinkProfile implements DeepLinkProfile {
   TResult? whenOrNull<TResult extends Object?>({
     TResult? Function()? uninitialized,
     TResult? Function()? initialized,
+    TResult? Function()? home,
+    TResult? Function()? login,
     TResult? Function()? profile,
     TResult? Function(String recipeId)? recipe,
     TResult? Function(String? recipeType, String? query, String? filter)?
@@ -427,6 +749,8 @@ class _$DeepLinkProfile implements DeepLinkProfile {
   TResult maybeWhen<TResult extends Object?>({
     TResult Function()? uninitialized,
     TResult Function()? initialized,
+    TResult Function()? home,
+    TResult Function()? login,
     TResult Function()? profile,
     TResult Function(String recipeId)? recipe,
     TResult Function(String? recipeType, String? query, String? filter)?
@@ -445,6 +769,8 @@ class _$DeepLinkProfile implements DeepLinkProfile {
   TResult map<TResult extends Object?>({
     required TResult Function(DeepLinkUninitialized value) uninitialized,
     required TResult Function(DeepLinkInitialized value) initialized,
+    required TResult Function(DeepLinkHome value) home,
+    required TResult Function(DeepLinkLogin value) login,
     required TResult Function(DeepLinkProfile value) profile,
     required TResult Function(DeepLinkRecipe value) recipe,
     required TResult Function(DeepLinkRecipes value) recipes,
@@ -458,6 +784,8 @@ class _$DeepLinkProfile implements DeepLinkProfile {
   TResult? mapOrNull<TResult extends Object?>({
     TResult? Function(DeepLinkUninitialized value)? uninitialized,
     TResult? Function(DeepLinkInitialized value)? initialized,
+    TResult? Function(DeepLinkHome value)? home,
+    TResult? Function(DeepLinkLogin value)? login,
     TResult? Function(DeepLinkProfile value)? profile,
     TResult? Function(DeepLinkRecipe value)? recipe,
     TResult? Function(DeepLinkRecipes value)? recipes,
@@ -471,6 +799,8 @@ class _$DeepLinkProfile implements DeepLinkProfile {
   TResult maybeMap<TResult extends Object?>({
     TResult Function(DeepLinkUninitialized value)? uninitialized,
     TResult Function(DeepLinkInitialized value)? initialized,
+    TResult Function(DeepLinkHome value)? home,
+    TResult Function(DeepLinkLogin value)? login,
     TResult Function(DeepLinkProfile value)? profile,
     TResult Function(DeepLinkRecipe value)? recipe,
     TResult Function(DeepLinkRecipes value)? recipes,
@@ -555,6 +885,8 @@ class _$DeepLinkRecipe implements DeepLinkRecipe {
   TResult when<TResult extends Object?>({
     required TResult Function() uninitialized,
     required TResult Function() initialized,
+    required TResult Function() home,
+    required TResult Function() login,
     required TResult Function() profile,
     required TResult Function(String recipeId) recipe,
     required TResult Function(String? recipeType, String? query, String? filter)
@@ -569,6 +901,8 @@ class _$DeepLinkRecipe implements DeepLinkRecipe {
   TResult? whenOrNull<TResult extends Object?>({
     TResult? Function()? uninitialized,
     TResult? Function()? initialized,
+    TResult? Function()? home,
+    TResult? Function()? login,
     TResult? Function()? profile,
     TResult? Function(String recipeId)? recipe,
     TResult? Function(String? recipeType, String? query, String? filter)?
@@ -583,6 +917,8 @@ class _$DeepLinkRecipe implements DeepLinkRecipe {
   TResult maybeWhen<TResult extends Object?>({
     TResult Function()? uninitialized,
     TResult Function()? initialized,
+    TResult Function()? home,
+    TResult Function()? login,
     TResult Function()? profile,
     TResult Function(String recipeId)? recipe,
     TResult Function(String? recipeType, String? query, String? filter)?
@@ -601,6 +937,8 @@ class _$DeepLinkRecipe implements DeepLinkRecipe {
   TResult map<TResult extends Object?>({
     required TResult Function(DeepLinkUninitialized value) uninitialized,
     required TResult Function(DeepLinkInitialized value) initialized,
+    required TResult Function(DeepLinkHome value) home,
+    required TResult Function(DeepLinkLogin value) login,
     required TResult Function(DeepLinkProfile value) profile,
     required TResult Function(DeepLinkRecipe value) recipe,
     required TResult Function(DeepLinkRecipes value) recipes,
@@ -614,6 +952,8 @@ class _$DeepLinkRecipe implements DeepLinkRecipe {
   TResult? mapOrNull<TResult extends Object?>({
     TResult? Function(DeepLinkUninitialized value)? uninitialized,
     TResult? Function(DeepLinkInitialized value)? initialized,
+    TResult? Function(DeepLinkHome value)? home,
+    TResult? Function(DeepLinkLogin value)? login,
     TResult? Function(DeepLinkProfile value)? profile,
     TResult? Function(DeepLinkRecipe value)? recipe,
     TResult? Function(DeepLinkRecipes value)? recipes,
@@ -627,6 +967,8 @@ class _$DeepLinkRecipe implements DeepLinkRecipe {
   TResult maybeMap<TResult extends Object?>({
     TResult Function(DeepLinkUninitialized value)? uninitialized,
     TResult Function(DeepLinkInitialized value)? initialized,
+    TResult Function(DeepLinkHome value)? home,
+    TResult Function(DeepLinkLogin value)? login,
     TResult Function(DeepLinkProfile value)? profile,
     TResult Function(DeepLinkRecipe value)? recipe,
     TResult Function(DeepLinkRecipes value)? recipes,
@@ -732,6 +1074,8 @@ class _$DeepLinkRecipes implements DeepLinkRecipes {
   TResult when<TResult extends Object?>({
     required TResult Function() uninitialized,
     required TResult Function() initialized,
+    required TResult Function() home,
+    required TResult Function() login,
     required TResult Function() profile,
     required TResult Function(String recipeId) recipe,
     required TResult Function(String? recipeType, String? query, String? filter)
@@ -746,6 +1090,8 @@ class _$DeepLinkRecipes implements DeepLinkRecipes {
   TResult? whenOrNull<TResult extends Object?>({
     TResult? Function()? uninitialized,
     TResult? Function()? initialized,
+    TResult? Function()? home,
+    TResult? Function()? login,
     TResult? Function()? profile,
     TResult? Function(String recipeId)? recipe,
     TResult? Function(String? recipeType, String? query, String? filter)?
@@ -760,6 +1106,8 @@ class _$DeepLinkRecipes implements DeepLinkRecipes {
   TResult maybeWhen<TResult extends Object?>({
     TResult Function()? uninitialized,
     TResult Function()? initialized,
+    TResult Function()? home,
+    TResult Function()? login,
     TResult Function()? profile,
     TResult Function(String recipeId)? recipe,
     TResult Function(String? recipeType, String? query, String? filter)?
@@ -778,6 +1126,8 @@ class _$DeepLinkRecipes implements DeepLinkRecipes {
   TResult map<TResult extends Object?>({
     required TResult Function(DeepLinkUninitialized value) uninitialized,
     required TResult Function(DeepLinkInitialized value) initialized,
+    required TResult Function(DeepLinkHome value) home,
+    required TResult Function(DeepLinkLogin value) login,
     required TResult Function(DeepLinkProfile value) profile,
     required TResult Function(DeepLinkRecipe value) recipe,
     required TResult Function(DeepLinkRecipes value) recipes,
@@ -791,6 +1141,8 @@ class _$DeepLinkRecipes implements DeepLinkRecipes {
   TResult? mapOrNull<TResult extends Object?>({
     TResult? Function(DeepLinkUninitialized value)? uninitialized,
     TResult? Function(DeepLinkInitialized value)? initialized,
+    TResult? Function(DeepLinkHome value)? home,
+    TResult? Function(DeepLinkLogin value)? login,
     TResult? Function(DeepLinkProfile value)? profile,
     TResult? Function(DeepLinkRecipe value)? recipe,
     TResult? Function(DeepLinkRecipes value)? recipes,
@@ -804,6 +1156,8 @@ class _$DeepLinkRecipes implements DeepLinkRecipes {
   TResult maybeMap<TResult extends Object?>({
     TResult Function(DeepLinkUninitialized value)? uninitialized,
     TResult Function(DeepLinkInitialized value)? initialized,
+    TResult Function(DeepLinkHome value)? home,
+    TResult Function(DeepLinkLogin value)? login,
     TResult Function(DeepLinkProfile value)? profile,
     TResult Function(DeepLinkRecipe value)? recipe,
     TResult Function(DeepLinkRecipes value)? recipes,
@@ -898,6 +1252,8 @@ class _$DeepLinkError implements DeepLinkError {
   TResult when<TResult extends Object?>({
     required TResult Function() uninitialized,
     required TResult Function() initialized,
+    required TResult Function() home,
+    required TResult Function() login,
     required TResult Function() profile,
     required TResult Function(String recipeId) recipe,
     required TResult Function(String? recipeType, String? query, String? filter)
@@ -912,6 +1268,8 @@ class _$DeepLinkError implements DeepLinkError {
   TResult? whenOrNull<TResult extends Object?>({
     TResult? Function()? uninitialized,
     TResult? Function()? initialized,
+    TResult? Function()? home,
+    TResult? Function()? login,
     TResult? Function()? profile,
     TResult? Function(String recipeId)? recipe,
     TResult? Function(String? recipeType, String? query, String? filter)?
@@ -926,6 +1284,8 @@ class _$DeepLinkError implements DeepLinkError {
   TResult maybeWhen<TResult extends Object?>({
     TResult Function()? uninitialized,
     TResult Function()? initialized,
+    TResult Function()? home,
+    TResult Function()? login,
     TResult Function()? profile,
     TResult Function(String recipeId)? recipe,
     TResult Function(String? recipeType, String? query, String? filter)?
@@ -944,6 +1304,8 @@ class _$DeepLinkError implements DeepLinkError {
   TResult map<TResult extends Object?>({
     required TResult Function(DeepLinkUninitialized value) uninitialized,
     required TResult Function(DeepLinkInitialized value) initialized,
+    required TResult Function(DeepLinkHome value) home,
+    required TResult Function(DeepLinkLogin value) login,
     required TResult Function(DeepLinkProfile value) profile,
     required TResult Function(DeepLinkRecipe value) recipe,
     required TResult Function(DeepLinkRecipes value) recipes,
@@ -957,6 +1319,8 @@ class _$DeepLinkError implements DeepLinkError {
   TResult? mapOrNull<TResult extends Object?>({
     TResult? Function(DeepLinkUninitialized value)? uninitialized,
     TResult? Function(DeepLinkInitialized value)? initialized,
+    TResult? Function(DeepLinkHome value)? home,
+    TResult? Function(DeepLinkLogin value)? login,
     TResult? Function(DeepLinkProfile value)? profile,
     TResult? Function(DeepLinkRecipe value)? recipe,
     TResult? Function(DeepLinkRecipes value)? recipes,
@@ -970,6 +1334,8 @@ class _$DeepLinkError implements DeepLinkError {
   TResult maybeMap<TResult extends Object?>({
     TResult Function(DeepLinkUninitialized value)? uninitialized,
     TResult Function(DeepLinkInitialized value)? initialized,
+    TResult Function(DeepLinkHome value)? home,
+    TResult Function(DeepLinkLogin value)? login,
     TResult Function(DeepLinkProfile value)? profile,
     TResult Function(DeepLinkRecipe value)? recipe,
     TResult Function(DeepLinkRecipes value)? recipes,
