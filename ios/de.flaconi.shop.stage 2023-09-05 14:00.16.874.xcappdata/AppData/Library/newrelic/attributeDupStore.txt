@@ -1,0 +1,34 @@
+DartVersion
+0	2.19.6 (stable) (Tue Mar 28 13:41:04 2023 +0000) on "ios_arm64"
+Flutter Agent Version
+0	1.0.0
+appBuild
+0	0
+carrier
+0	wifi
+deviceManufacturer
+0	Apple Inc.
+deviceModel
+0	iPhone12,1
+lastInteraction
+0	Display Storyly.StorylyViewController
+memUsageMb
+1	0	287.204559326172
+newRelicVersion
+0	7.4.4
+nr.vendorID
+0	5ACBCF86-A332-4F2E-A227-1A7125367F70
+osMajorVersion
+0	16
+osName
+0	iOS
+osVersion
+0	16.6
+platform
+0	Flutter
+platformVersion
+0	7.4.4
+sessionId
+0	BDE8E847-2571-46C7-A601-ECC0D2DF0970
+uuid
+0	5ACBCF86-A332-4F2E-A227-1A7125367F70
