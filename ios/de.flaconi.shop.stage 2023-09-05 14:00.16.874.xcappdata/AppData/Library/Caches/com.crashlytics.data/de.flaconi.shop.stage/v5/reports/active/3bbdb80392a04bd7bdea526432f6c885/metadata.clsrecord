@@ -1,4 +1,0 @@
-{"identity":{"generator":"Crashlytics iOS SDK/10.7.0","display_version":"10.7.0","build_version":"10.7.0","started_at":1693915064,"session_id":"3bbdb80392a04bd7bdea526432f6c885","app_quality_session_id":"3ecdb64452444a5aa56ba879b4fe6362","install_id":"","beta_token":"","absolute_log_timestamps":true}}
-{"host":{"model":"iPhone12,1","machine":"N104AP","os_build_version":"20G75","os_display_version":"16.6.0","platform":"ios","firebase_platform":"ios","locale":"pl_PL"}}
-{"application":{"bundle_id":"de.flaconi.shop.stage","custom_bundle_id":null,"build_version":"0","display_version":"3.32.1","extension_id":null}}
-{"executable":{"architecture":"arm64","uuid":"d84fac800430373b910b515db50169e9","base":4363812864,"size":1097728,"encrypted":false,"minimum_sdk_version":"11.0.0","built_sdk_version":"16.4.0"}}
