@@ -18,7 +18,7 @@ class RecipesScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text(recipeType ?? ''),
       ),
-      body: Column(),
+      body: const Column(),
     );
   }
 }

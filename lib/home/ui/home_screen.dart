@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
-import 'package:recipe_app/deep_link/presentation/bloc/deep_link_bloc.dart';
 import 'package:recipe_app/recipe/ui/recipe_tile.dart';
 import 'package:recipe_app/recipe/bloc/recipes_bloc.dart';
 
@@ -64,13 +63,5 @@ class _HomeScreenState extends State<HomeScreen> {
         }
       }),
     );
-  }
-
-  @override
-  void initState() {
-    super.initState();
-    WidgetsBinding.instance.addPostFrameCallback((_) {
-      context.read<DeepLinkBloc>().add(const InitializeDeepLinks());
-    });
   }
 }
