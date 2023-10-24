@@ -91,6 +91,7 @@ class DeepLinkBloc extends Bloc<DeepLinkEvent, DeepLinkState> {
     }
   }
 
+  // Currently not implemented, just an idea
   // /recipes/:type(breakfast|dessert|dinner)?query=xyz&filter=zyx
   DeepLinkState _handleRecipesEvent(DeepLinkRecipesEvent event) {
     final type =
