@@ -1,7 +1,5 @@
 import 'dart:convert';
-import 'dart:io';
 
-import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:injectable/injectable.dart';
 import 'package:recipe_app/recipe/model/recipe.dart';
@@ -9,7 +7,6 @@ import 'package:recipe_app/recipe/model/recipe.dart';
 @singleton
 class RecipeApi {
   Future<List<Recipe>> getRecipes() async {
-
     final data = await rootBundle.loadString(
       'assets/json/recipes.json',
     );

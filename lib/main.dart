@@ -3,7 +3,6 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 
 // ignore: depend_on_referenced_packages
 import 'package:flutter_web_plugins/url_strategy.dart';
-import 'package:go_router/go_router.dart';
 import 'package:recipe_app/auth/presentation/bloc/auth_bloc.dart';
 import 'package:recipe_app/deep_link/presentation/bloc/deep_link_bloc.dart';
 import 'package:recipe_app/deep_link/presentation/bloc/deep_link_listener.dart';

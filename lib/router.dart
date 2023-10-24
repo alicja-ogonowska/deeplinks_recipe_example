@@ -25,20 +25,25 @@ final appRouter = GoRouter(
   redirect: _handleRedirect,
   initialLocation: ScreenPaths.home,
   routes: [
-    AppRoute(ScreenPaths.home, (_) => const HomeScreen(), routes: [
-      AppRoute(
-        'recipe/:id',
-        (s) => RecipeScreen(recipeId: s.pathParameters['id']!),
-      ),
-      AppRoute(
-        'login',
-        (_) => const LoginScreen(),
-      ),
-      AppRoute(
-        'profile',
-        (_) => const MyProfileScreen(),
-      ),
-    ], ),AppRoute('/recipes', (_)=>  RecipesScreen()),
+    AppRoute(
+      ScreenPaths.home,
+      (_) => const HomeScreen(),
+      routes: [
+        AppRoute(
+          'recipe/:id',
+          (s) => RecipeScreen(recipeId: s.pathParameters['id']!),
+        ),
+        AppRoute(
+          'login',
+          (_) => const LoginScreen(),
+        ),
+        AppRoute(
+          'profile',
+          (_) => const MyProfileScreen(),
+        ),
+      ],
+    ),
+    AppRoute('/recipes', (_) => const RecipesScreen()),
   ],
   errorBuilder: (context, state) => const NotFoundScreen(),
 );
